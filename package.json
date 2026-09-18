@@ -1,0 +1,26 @@
+{
+  "name": "sia.practice",
+  "version": "1.0.0",
+  "description": "Classroom Activities",
+  "keywords": [
+    "sia"
+  ],
+  "homepage": "https://github.com/MichaBermudo/SIA.practice#readme",
+  "bugs": {
+    "url": "https://github.com/MichaBermudo/SIA.practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaBermudo/SIA.practice.git"
+  },
+  "license": "ISC",
+  "author": "Bermudo, Micha",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

@@ -1,0 +1,34 @@
+SHOW DATABASES;
+
+CREATE DATABASE school;
+
+USE school;
+
+CREATE TABLE information (
+id INT PRIMARY KEY,
+name VARCHAR(100),
+course VARCHAR(100),
+age INT
+);
+
+DESCRIBE students;
+
+INSERT INTO students (id, name, course, age)
+VALUES
+(202521051, 'Micha G. Bermudo', 'BSIT', 19),
+(202512345, 'Lea G. Torres', 'BSCJ', 13);
+
+SELECT * FROM students;
+
+SELECT ____ FROM students; ----> View only one column
+
+UPDATE students  -----> Change
+SET name = 'Micha Gabion'
+WHERE id = 202521050;
+
+DELETE FROM students 
+WHERE id =___?
+
+DROP DATABASE school; ----> Delete in the database
+
+DROP DATABASE students; ----> Delete the table inside the database
